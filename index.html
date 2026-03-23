@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>nern.dad</title>
+<link href="style.css?v=3" rel="stylesheet"/>
+<link href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;⚡&lt;/text&gt;&lt;/svg&gt;" rel="icon"/>
+</head>
+<body>
+<div class="container">
+<header>
+<h1>nern.dad</h1>
+<div id="clock"></div>
+</header>
+<div class="grid">
+            <a class="card" href="https://autobrr.nern.dad" rel="noopener noreferrer" target="_blank">
+<div class="icon"><img alt="Autobrr" class="icon-img" src="assets/icons/autobrr.png"/></div>
+<h2>Autobrr</h2>
+<p>IRC Auto-DL</p>
+</a>
+            <a class="card" href="https://bazarr.nern.dad" rel="noopener noreferrer" target="_blank">
+<div class="icon"><img alt="Bazarr" class="icon-img" src="assets/icons/bazarr.png"/></div>
+<h2>Bazarr</h2>
+<p>Subtitles</p>
+</a>
+            <a class="card" href="https://beszel.nern.dad" rel="noopener noreferrer" target="_blank">
+<div class="icon"><img alt="Beszel" class="icon-img" src="assets/icons/beszel.png"/></div>
+<h2>Beszel</h2>
+<p>Monitoring</p>
+</a>
+
+            <a class="card" href="https://chaptarr.nern.dad" rel="noopener noreferrer" target="_blank">
+<div class="icon"><img alt="Chaptarr" class="icon-img" src="assets/icons/chaptarr.png"/></div>
+<h2>Chaptarr</h2>
+<p>Chapters</p>
+</a>
+            <a class="card" href="https://emby.nern.dad" rel="noopener noreferrer" target="_blank">
+<div class="icon"><img alt="Emby" class="icon-img" src="assets/icons/emby.png?v=3"/></div>
+<h2>Emby</h2>
+<p>Movies &amp; TV</p>
+</a>
+            <a class="card" href="https://lidarr.nern.dad" rel="noopener noreferrer" target="_blank">
+<div class="icon"><img alt="Lidarr" class="icon-img" src="assets/icons/lidarr.png"/></div>
+<h2>Lidarr</h2>
+<p>Music</p>
+</a>
+            <a class="card" href="https://navidrome.nern.dad" rel="noopener noreferrer" target="_blank">
+<div class="icon"><img alt="Navidrome" class="icon-img" src="assets/icons/navidrome.png"/></div>
+<h2>Navidrome</h2>
+<p>Music Streaming</p>
+</a>
+            <a class="card" href="https://prowlarr.nern.dad" rel="noopener noreferrer" target="_blank">
+<div class="icon"><img alt="Prowlarr" class="icon-img" src="assets/icons/prowlarr.png"/></div>
+<h2>Prowlarr</h2>
+<p>Indexers</p>
+</a>
+            <a class="card" href="https://qbittorrent.nern.dad" rel="noopener noreferrer" target="_blank">
+<div class="icon"><img alt="qBittorrent" class="icon-img" src="assets/icons/qbittorrent.png"/></div>
+<h2>qBittorrent</h2>
+<p>Torrents</p>
+</a>
+            <a class="card" href="https://qui.nern.dad" rel="noopener noreferrer" target="_blank">
+<div class="icon"><img alt="Qui" class="icon-img" src="assets/icons/qui.png"/></div>
+<h2>Qui</h2>
+<p>Autobrr UI</p>
+</a>
+            <a class="card" href="https://radarr.nern.dad" rel="noopener noreferrer" target="_blank">
+<div class="icon"><img alt="Radarr" class="icon-img" src="assets/icons/radarr.png"/></div>
+<h2>Radarr</h2>
+<p>Movies</p>
+</a>
+            <a class="card" href="https://sabnzbd.nern.dad" rel="noopener noreferrer" target="_blank">
+<div class="icon"><img alt="SABnzbd" class="icon-img" src="assets/icons/sabnzbd.png"/></div>
+<h2>SABnzbd</h2>
+<p>Usenet</p>
+</a>
+            <a class="card" href="https://seerr.nern.dad" rel="noopener noreferrer" target="_blank">
+<div class="icon"><img alt="Jellyseerr" class="icon-img" src="assets/icons/jellyseerr.png"/></div>
+<h2>Seerr</h2>
+<p>Requests</p>
+</a>
+
+            <a class="card" href="https://sonarr.nern.dad" rel="noopener noreferrer" target="_blank">
+<div class="icon"><img alt="Sonarr" class="icon-img" src="assets/icons/sonarr.png"/></div>
+<h2>Sonarr</h2>
+<p>TV Shows</p>
+</a>
+            <a class="card local-card" href="/local.html">
+<div class="icon"><span style="font-size:48px;">🔒</span></div>
+<h2>Local</h2>
+<p>Local Services</p>
+</a>
+        </div>
+</div>
+<script>
+        function updateClock() {
+            const now = new Date();
+            document.getElementById('clock').innerText = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+    </script>
+</body>
+</html>
