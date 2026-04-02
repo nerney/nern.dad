@@ -6,3 +6,7 @@ on:
 jobs:
   publish-image:
     uses: nerney/workflows/.github/workflows/publish-image.yml@main
+    permissions: 
+      contents: read
+      packages: write    
+
