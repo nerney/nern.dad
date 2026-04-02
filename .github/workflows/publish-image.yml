@@ -5,4 +5,4 @@ on:
       - main
 jobs:
   publish-image:
-    uses: nerney/workflows/publish-image.yml
+    uses: nerney/workflows/publish-image.yml@main
