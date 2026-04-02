@@ -1,0 +1,8 @@
+name: Publish Image
+on:
+  push:
+    branches:
+      - main
+jobs:
+  publish-image:
+    uses: nerney/workflows/publish-image.yml
