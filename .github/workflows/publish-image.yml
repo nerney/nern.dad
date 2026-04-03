@@ -1,4 +1,5 @@
 name: Publish Image
+run-name: Publish ${{ github.repository }} image
 on:
   push:
     branches:
