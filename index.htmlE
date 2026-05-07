@@ -16,62 +16,62 @@
             <div id="clock"></div>
         </header>
         <div class="grid">
-            <a class="card" href="http://nernmachine:6767" rel="noopener noreferrer" target="_blank">
+            <a class="card" href="https://bazarr.nern.dad" rel="noopener noreferrer" target="_blank">
                 <div class="icon"><img alt="Bazarr" class="icon-img" src="assets/icons/bazarr.png" /></div>
                 <h2>Bazarr</h2>
                 <p>Subtitles</p>
             </a>
-            <a class="card" href="http://nernmachine:8090" rel="noopener noreferrer" target="_blank">
+            <a class="card" href="https://beszel.nern.dad" rel="noopener noreferrer" target="_blank">
                 <div class="icon"><img alt="Beszel" class="icon-img" src="assets/icons/beszel.png" /></div>
                 <h2>Beszel</h2>
                 <p>Monitoring</p>
             </a>
-            <a class="card" href="http://nernmachine:8096" rel="noopener noreferrer" target="_blank">
+            <a class="card" href="https://emby.nern.dad" rel="noopener noreferrer" target="_blank">
                 <div class="icon"><img alt="Emby" class="icon-img" src="assets/icons/emby.png?v=3" /></div>
                 <h2>Emby</h2>
                 <p>Watch</p>
             </a>
-            <a class="card" href="http://nernmachine:8686" rel="noopener noreferrer" target="_blank">
+            <a class="card" href="https://lidarr.nern.dad" rel="noopener noreferrer" target="_blank">
                 <div class="icon"><img alt="Lidarr" class="icon-img" src="assets/icons/lidarr.png" /></div>
                 <h2>Lidarr</h2>
                 <p>Music</p>
             </a>
-            <a class="card" href="http://nernmachine:9696" rel="noopener noreferrer" target="_blank">
+            <a class="card" href="https://prowlarr.nern.dad" rel="noopener noreferrer" target="_blank">
                 <div class="icon"><img alt="Prowlarr" class="icon-img" src="assets/icons/prowlarr.png" /></div>
                 <h2>Prowlarr</h2>
                 <p>Indexers</p>
             </a>
-            <a class="card" href="http://nernmachine:8888" rel="noopener noreferrer" target="_blank">
+            <a class="card" href="https://qbittorrent.nern.dad" rel="noopener noreferrer" target="_blank">
                 <div class="icon"><img alt="qBittorrent" class="icon-img" src="assets/icons/qbittorrent.png" /></div>
                 <h2>qBittorrent</h2>
                 <p>Torrents</p>
             </a>
-            <a class="card" href="http://nernmachine:7476" rel="noopener noreferrer" target="_blank">
+            <a class="card" href="https://qui.nern.dad" rel="noopener noreferrer" target="_blank">
                 <div class="icon"><img alt="Qui" class="icon-img" src="assets/icons/qui.png" /></div>
                 <h2>Qui</h2>
                 <p>Torrents</p>
             </a>
-            <a class="card" href="http://nernmachine:7878" rel="noopener noreferrer" target="_blank">
+            <a class="card" href="https://radarr.nern.dad" rel="noopener noreferrer" target="_blank">
                 <div class="icon"><img alt="Radarr" class="icon-img" src="assets/icons/radarr.png" /></div>
                 <h2>Radarr</h2>
                 <p>Movies</p>
             </a>
-            <a class="card" href="http://nernmachine:8080" rel="noopener noreferrer" target="_blank">
+            <a class="card" href="https://sabnzbd.nern.dad" rel="noopener noreferrer" target="_blank">
                 <div class="icon"><img alt="SABnzbd" class="icon-img" src="assets/icons/sabnzbd.png" /></div>
                 <h2>SABnzbd</h2>
                 <p>Usenet</p>
             </a>
-            <a class="card" href="http://nernmachine:5055" rel="noopener noreferrer" target="_blank">
+            <a class="card" href="https://seerr.nern.dad" rel="noopener noreferrer" target="_blank">
                 <div class="icon"><img alt="Jellyseerr" class="icon-img" src="assets/icons/jellyseerr.png" /></div>
                 <h2>Seerr</h2>
                 <p>Requests</p>
             </a>
-            <a class="card" href="http://nernmachine:8989" rel="noopener noreferrer" target="_blank">
+            <a class="card" href="https://sonarr.nern.dad" rel="noopener noreferrer" target="_blank">
                 <div class="icon"><img alt="Sonarr" class="icon-img" src="assets/icons/sonarr.png" /></div>
                 <h2>Sonarr</h2>
                 <p>TV</p>
             </a>
-            <a class="card" href="http://nernmachine:8484" rel="noopener noreferrer" target="_blank">
+            <a class="card" href="https://tidarr.nern.dad" rel="noopener noreferrer" target="_blank">
                 <div class="icon"><img alt="Tidarr" class="icon-img" src="assets/icons/tidarr.png" /></div>
                 <h2>Tidarr</h2>
                 <p>Music DL</p>
